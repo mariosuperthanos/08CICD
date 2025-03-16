@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node app.js",
     "dev": "vite",
     "lint": "eslint --ext .jsx --fix src",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "npx playwright test"
   },
   "dependencies": {
     "@playwright/test": "^1.50.1",
